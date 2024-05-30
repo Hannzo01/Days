@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-/*
+
 int ft_strlen(char *str)
 {
 	int length;
@@ -11,7 +11,8 @@ int ft_strlen(char *str)
 	}
 	return length;
 }
-*/
+
+/*
 int ft_strlen(char *str)
 {
 	int i = 0;
@@ -22,7 +23,17 @@ int ft_strlen(char *str)
 	}
 	return i;
 }
-/*
+int ft_strlen(char *str)
+{
+	int i; 
+	i = 0;
+	while( *(str+i) != '\0')
+	{
+		i++;
+	}
+	return i++;
+}
+
 int main()
 {
 	char *str = "tlija le 9tita";
@@ -35,3 +46,4 @@ int main()
 
 }
 */
+
